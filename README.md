@@ -1,10 +1,15 @@
 jsonstorage
 ===========
 localstorageと同様の保存方法をDBでも行えるようにできる。</br>
+</br>
 jsonstorageはlocalstorageの切り替えが可能。</br>
+</br>
 切り替え時は使用するHTMLに</br>
+</br>
 FormStorage.init(Localasystorage);</br>
+</br>
 FormStorage.init(Jsonstorage);</br>
+</br>
 のどちらかをユーザー側が指定することで切り替え可能。</br>
 </br>
 以下仕様用途(nv_form同様)</br>
