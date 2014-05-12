@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="shift-jis" />
+    	<title>localstorage</title>
+	<script type="text/javascript" src="Jsonstorage3.js"></script>
+	<script type="text/javascript" src="Local.js"></script>
+    	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    	<script type="text/javascript">
+        	google.load("jquery", "1");
+   	</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="storage.js"></script>
+<script>
+$(function(){
+	FormStorage.init(Localasystorage);
+	//FormStorage.init(Jsonstorage);
+});
+	</script>
+</head>
+<body>
+<form class="tage1"  name ="form01">
+<input type="text" id="text" name="t01"/>
+<input type="text" id="text02" name="t02"/></br>
+<input type="checkbox" id="check" name="c01" value="00000" />
+<input type="checkbox" id="check02" name="c01" value="111111"/>
+<input type="radio" id="radio01" name="r01" value="test"/></br>
+<input type="radio" id="radio02" name="r01"value="oncheck" /></br>
+
+<select class="ml5 mb15" id ="select" name="s01" style="width:215px;">
+<option value="1">1</option>
+<option value="5">5</option>
+<option value="10">10</option>
+</select>
+
+<select class="ml5 mb15" name="select02" style="width:215px;">
+<option value="1">1</option>
+<option value="5">5</option>
+<option value="10">10</option>
+</select>
+
+<div class="formclock">
+		<span>adasdad</span>
+</div>
+
+<input type="submit" id="post02" class="tage1" name="ad" value="送信" /></br>
+
+</form>
+<form class="tage2" name ="form02">
+<input type="text" id="value03" name="garagaragara" class="tage2"/>
+<input type="text" id="value04" name="koushi" class="tage2"/></br>
+<input type="submit" id="post04" class="tage2" name="ag" value="送信" /></br>
+</form>
+</body>
+</html>
